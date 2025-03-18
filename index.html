@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A simple HTML5 webpage structure">
+    <title>my simple webpage</title>
+</head>
+<body>
+    <section>
+        <h1>Ordered list (Roman Numerals)</h1>
+        <ol type="I">
+            <li>First item</li>
+            <li>Second item</li>
+            <li>Third item</li>
+        </ol>
+    </section>
+    <section>
+        <h1>image from pexels.com</h1>
+        <img src="https://images.pexels.com/photos/20787/pexels-photo.jpg" alt="A beautiful landscape">
+    </section>
+    
+    <section>
+        <h1>Contact list</h1>
+        <table border="1">
+            <tr>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Phone</th>
+            </tr>
+            <tr>
+                <td>KELVIN KIPKEMOI</td>
+                <td>47 Kimulot</td>
+                <td>0740401664</td>
+                <td>kevinrotich82@gmail.com></td>
+            </tr>
+                <tr>
+                    <td>Beryl Chelangat</td>
+                    <td>23 litein</td> 
+                    <td>0727643777</td>
+                    <td>berylchelanga@gmail.com</td>
+                </tr>
+    </section>
+
+    <section>
+        <h1>Registration form</h1>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter your name">
+          
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email">
+          
+            <label for ="password">Password:</label>
+            <input type="password" id="password" name="password" placeholder="Enter your password">
+
+            <label for="dob">Date of Birth:</label>
+            <input type="date" id="dob" name="dob" required><br><br>
+
+            <label for="country">Country:</label>
+            <select id="country" name="country">
+                <option value="Kenya">Kenya</option>
+                <option value="Uganda">Uganda</option>
+                <option value="Tanzania">Tanzania</option>
+                <option value="Rwanda">Rwanda</option>
+            </select><br><br>
+            <fieldset>
+                <legend>Gender:</legend>
+                <input type="radio" id="male" name="Gender" value="male" required>
+                <label for="male">male</label><br>
+                <input type="radio" id="female" name="gender" value="female" required>
+                <label for="female">Female</label><br>
+                <input type="radio"id="other" name="gender" value="other" required>
+                <label for="other">Other</label><br>
+                       </fieldset><br>
+            <fieldset>
+                <legend>Hobbies:</legend>
+                <input type="checkbox" id="reading" name="hobbies" value="reading">
+                <label for="reading">Reading</label><br>
+                <input type="checkbox" id="swimming" name="hobbies" value="swimming">
+                <label for="swimming">Swimming</label><br>
+                <input type="checkbox" id="dancing" name="hobbies" value="dancing">
+                <label for="dancing">Dancing</label><br>    
+            </fieldset><br>
+            <button type="submit">Submit</button>
+        </form>
+    </section>          
+            </fieldset>
+        </form>
+</body>
+    <header>
+        <h1>welcome to my website</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section id="Home">
+            <h2>Home</h2>
+            <p>This is the home section of our simple webpage.</p>
+        </section>
+
+        <section id="About">
+            <h2>About</h2>
+            <p>This setion provides information about our website.</p>
+        </section>
+    </main>
+    <footer>
+        <p>Contact us at: <a href="kevinrotich82@gmail.com">kevinrotich82@gmail.com</a></p>
+        <p>copy; 2025 my simple webpage</p>
+    </footer>
+</body>
+</html>
